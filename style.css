@@ -11,6 +11,10 @@
     background: transparent;
     font-weight: 550;
 }
+.logo{
+    margin-left: 15px;
+    margin-top: -20px;
+}
 .btn-download:hover{
     background-color: #ecf3ff;
     cursor: pointer;
@@ -33,6 +37,56 @@ ul>li:hover{
     color: rgb(43, 161, 235);
     cursor: pointer;
 }
-. section2{
+.section2{
+    background-image: url('Assets/bg1.jpeg');
+    background-size: cover;     
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 400px;
+    padding-top: 20%;
+    padding-left: 10%;
+    opacity: 0.9;
 
+    
+}
+.section2-content {
+color:white;
+font-size: 45px;
+font-weight: 600;
+opacity: 2;
+
+}
+.input{
+    border-radius: 5px;
+    border:1px solid #9ea0ad;
+    height: 50px;
+    margin: 10px;
+    width: 300px;
+    position: relative;
+}
+.input-container{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 30px; */
+    height: 70px;
+    margin-right: 20px;
+
+}
+.btn-search{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    color: #ecf3ff;
+}
+.input-position1{
+    position: absolute;
+    display: flex;
+    left:5px;
+    top:10px;
+}
+.flex-column{
+    flex-direction:column;
+    display: flex;
 }
