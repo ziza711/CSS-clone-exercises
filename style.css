@@ -90,3 +90,33 @@ opacity: 2;
     flex-direction:column;
     display: flex;
 }
+
+
+.announce{
+    display: flex;
+    justify-content: space-between;
+    background-color: #191e3b;
+    padding:10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    
+
+
+}
+
+.flex-container > p {
+    color:#fff;
+    font-size: 20px;
+}
+
+.icon-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aed1f3;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+}
