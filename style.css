@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn-download{
+    border-radius: 20px;
+    padding:10px;
+    border: 1px solid #eee;
+    background: transparent;
+    font-weight: 550;
+}
+.btn-download:hover{
+    background-color: #ecf3ff;
+    cursor: pointer;
+}
+.flex-container{
+    display:flex;
+    gap: 20px;
+
+}
+ul>li{
+    list-style: none;
+    text-decoration: none;
+    font-weight: 550;
+
+}
+.li-butttton{
+    margin-top: -10px;
+}
+ul>li:hover{
+    color: rgb(43, 161, 235);
+    cursor: pointer;
+}
+. section2{
+
+}
